@@ -1,16 +1,16 @@
-package com.gintophilip.englishgreeting;
+package com.gintophilip.spanishgreeting;
 
 import com.gintophilip.core.greeting.contract.GreetingPlugin;
 
-public class EnglishGreeting implements GreetingPlugin {
+public class SpanishGreeting implements GreetingPlugin {
 
     @Override
     public void greet(String userName) {
-        System.out.println("Hello "+ userName+" "+"Welcome");
+        System.out.println("Hola "+ userName+" "+"bienvenido");
     }
 
     @Override
     public String getLanguage() {
-        return "English";
+        return "Spanish";
     }
 }

@@ -6,7 +6,7 @@ public class HindiGreeting implements GreetingPlugin {
 
     @Override
     public void greet(String userName) {
-        System.out.println("नमस्ते, "+ userName +" स्वागत है");
+        System.out.println("नमस्ते, "+ userName +"  स्वागत है");
     }
 
     @Override
